@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 
 export default function Nav(){
+    // 
     const [isOpen , setIsopen] = useState(false)
     const selectTheme = (value) => {
         localStorage.setItem('theme',value)
